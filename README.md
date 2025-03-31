@@ -1,51 +1,41 @@
-Fundamentos Node.js 🚀
-Este repositório é um projeto prático para aprender os fundamentos do Node.js, a poderosa plataforma de JavaScript do lado do servidor. É ideal para iniciantes que desejam entender como utilizar Node.js para desenvolver aplicações simples e performáticas.
+# Fundamentos Node.js 🚀
 
-📋 Objetivo
+Este repositório é um projeto prático para aprender os **fundamentos do Node.js**, a poderosa plataforma de JavaScript do lado do servidor. É ideal para iniciantes que desejam entender como utilizar Node.js para desenvolver aplicações simples e performáticas.
+
+## 📋 Objetivo
+
 O objetivo deste projeto é fornecer uma base sólida sobre os conceitos fundamentais do Node.js, incluindo:
 
-Criação de Servidores HTTP
+- **Criação de Servidores HTTP**
+- **Manipulação de Arquivos**
+- **Uso de Streams**
+- **JSON como Banco de Dados Local**
 
-Manipulação de Arquivos
+## 🛠️ Estrutura do Projeto
 
-Uso de Streams
-
-JSON como Banco de Dados Local
-
-🛠️ Estrutura do Projeto
 A estrutura do repositório é a seguinte:
 
-perl
-Copiar
-Fundamentos-NodeJs/
-│
-├── db.json               # Arquivo de dados JSON (banco de dados local)
-├── node_modules/         # Dependências instaladas via NPM
-├── package-lock.json     # Lock file das dependências
-├── package.json          # Informações do projeto e dependências
-├── src/                  # Código-fonte da aplicação
-├── streams/              # Manipulação de streams (exemplos práticos)
-└── .git/                 # Diretório de versionamento
-💡 Conceitos Abordados
+
+## 💡 Conceitos Abordados
+
 Neste projeto, você aprenderá a:
 
-Manipulação de Arquivos: Como utilizar o sistema de arquivos do Node.js para ler e escrever arquivos locais.
+- **Manipulação de Arquivos**: Como utilizar o sistema de arquivos do Node.js para ler e escrever arquivos locais.
+- **Requisições HTTP**: Como construir um servidor HTTP simples para criar APIs.
+- **Streams de Dados**: Como lidar com grandes volumes de dados de maneira eficiente usando streams.
+- **JSON como Banco de Dados**: Utilizando arquivos JSON como um banco de dados simples para armazenar e recuperar dados.
 
-Requisições HTTP: Como construir um servidor HTTP simples para criar APIs.
+## ⚡ Como Usar
 
-Streams de Dados: Como lidar com grandes volumes de dados de maneira eficiente usando streams.
+### 1. Clonar o Repositório
 
-JSON como Banco de Dados: Utilizando arquivos JSON como um banco de dados simples para armazenar e recuperar dados.
-
-⚡ Como Usar
-1. Clonar o Repositório
 Primeiro, clone o repositório para o seu ambiente local:
 
-bash
-Copiar
+```bash
 git clone <URL_DO_REPOSITORIO>
 cd Fundamentos-NodeJs
-2. Instalar Dependências
+
+. Instalar Dependências
 Instale as dependências do projeto utilizando o NPM:
 
 bash
@@ -86,4 +76,3 @@ Abra um Pull Request
 
 📑 Licença
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
-
